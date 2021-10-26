@@ -76,6 +76,18 @@
                 width: 380px;
                 height: 400px;
             }
+            .Perfilperros{
+                margin: 5px;
+                margin-left: 50px;
+                margin-right: auto;
+        
+            }
+            .perfilgatos{
+                margin: 5px;
+                margin-left: 50px;
+                margin-right: auto;
+            }
+
 
             .cont_nosotros {
                 width: 70%;
@@ -167,6 +179,26 @@
                 position: absolute;
                 left: 20px;
                 top: 1550px;
+                width: 70%;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+                margin-left: 30px;
+            }
+            .marca_perros{
+                position: absolute;
+                left: 30px;
+                top: 2220px;
+                width: 70%;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+                margin-left: 30px;
+            }
+            .marca_gatos{
+                position: absolute;
+                left: 30px;
+                top: 1620px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;
