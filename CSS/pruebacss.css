@@ -1,0 +1,565 @@
+@charset "UTF-8";
+body {
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); }
+  body hr {
+    width: 900px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    margin-left: auto;
+    margin-right: auto; }
+  body a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #33338d; }
+  body h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #13b93f;
+    font-size: 40px; }
+  body p {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #FFF; }
+  body ul {
+    list-style: none; }
+
+body {
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); }
+  body .contenedor {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto; }
+  body header {
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    grid-area: header;
+    display: flex;
+    justify-content: center; }
+  body main {
+    grid-area: main; }
+  body footer {
+    grid-area: footer; }
+
+body header .box_header {
+  display: flex;
+  justify-content: center; }
+
+body header .redes_header {
+  margin-top: 18px;
+  margin-left: 920px; }
+
+body header .logo_header {
+  justify-content: center; }
+
+body header .logotw {
+  width: 25px; }
+
+body header .logofb {
+  width: 25px; }
+
+body header .logoig {
+  width: 25px; }
+
+body nav .menu {
+  text-align: center; }
+
+body nav .menu__Principal {
+  background-color: #2f9236; }
+
+body nav .menu__Principal:hover {
+  background-color: #FFF;
+  color: black; }
+
+body nav .menu__Oculto {
+  background-color: #2f9236; }
+
+body main {
+  animation-duration: 2s;
+  animation-name: titulo; }
+
+@keyframes titulo {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  body main .video iframe {
+    width: 900px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto; }
+  body main .news {
+    margin-left: auto;
+    margin-right: auto; }
+  body main .news__Ingresos img {
+    /*Recomendar images de 490px x 552*/
+    max-width: 590px;
+    max-height: 752px;
+    margin-top: 10px;
+    margin-left: 5px; }
+  body main .news__Novedades {
+    margin-right: 5px;
+    max-width: 590px;
+    max-height: 752px;
+    margin-top: 10px; }
+  body main .cont_nosotros {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #FFF;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px; }
+  body main .FirmaADQ {
+    margin-top: 0px; }
+  body main .logoFirma img {
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto; }
+  body main .perros_Gatos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; }
+  body main .perfil {
+    width: 380px;
+    height: 400px;
+    filter: opacity(80%);
+    border-radius: 35px;
+    margin: 6px; }
+  body main .perfil:hover {
+    border: 2px solid #FFF;
+    filter: opacity(1);
+    margin: 20px;
+    width: 380px;
+    height: 400px;
+    transform: scale(1.1, 1.1); }
+  body main .box_Perfiles {
+    display: flex;
+    justify-content: center; }
+  body main .box_Perfiles img {
+    width: 200px;
+    filter: opacity(80%); }
+  body main .box_Perfiles img:hover {
+    border: 1px solid #FFF;
+    filter: opacity(1);
+    transform: scale(1.1, 1.1); }
+  body main .form_asociate {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px; }
+  body main .Qr_MP {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto; }
+  body main legend {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #FFF;
+    font-size: 35px; }
+  body main label {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #FFF;
+    font-size: 25px; }
+
+body footer {
+  justify-content: space-around;
+  display: block; }
+  body footer .FooterCabezal {
+    display: flex;
+    justify-content: space-around;
+    height: 134px; }
+  body footer .Dona__Qr_MP {
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 0px; }
+  body footer .FooterCabezal__contacto-tel, body footer .FooterCabezal__contacto-mail, body footer .FooterCabezal__contacto-ubi, body footer .FooterCabezal__contacto-Redes_footer-fb, body footer .FooterCabezal__contacto-Redes_footer-ig, body footer .FooterCabezal__contacto-Redes_footer-tw {
+    width: 25px; }
+  body footer .marcaFoorter {
+    background-color: grey;
+    align-items: center;
+    margin: 0px; }
+    body footer .marcaFoorter p {
+      color: #FFF; }
+
+body .btn-whatsapp {
+  color: #FFF;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 560%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999; }
+
+body .btn-arriba {
+  color: #FFF;
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  border-radius: 560%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999; }
+
+@media screen and (max-width: 415px) and (min-width: 320px) {
+  body {
+    /* ---------------- Boton de subir---------------------------*/ }
+    body main hr {
+      width: 50%;
+      background-color: #FFF;
+      border: 1px solid #FFF;
+      margin-left: auto;
+      margin-right: auto; }
+    body main .video {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto; }
+    body main .video iframe {
+      width: 300px;
+      height: 315px;
+      margin-left: auto;
+      margin-right: auto; }
+    body main .news {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto; }
+    body main .Ingresos {
+      margin-left: 35px; }
+    body main .news__Novedades img {
+      max-width: 300px;
+      max-height: 752px;
+      margin-top: 10px;
+      margin-left: 5px; }
+    body main .news__Novedades {
+      margin-right: 5px;
+      max-width: 300px;
+      max-height: auto;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    body main .news__Ingresos {
+      margin-left: auto;
+      margin-right: auto; }
+    body main .perros_Gatos {
+      display: grid;
+      align-items: center; }
+    body main .perfil {
+      width: 280px;
+      height: 300px;
+      filter: opacity(80%);
+      border-radius: 35px; }
+    body main .perfil:hover {
+      border: 2px solid #FFF;
+      filter: opacity(1);
+      width: 380px;
+      height: 400px; }
+    body main .cont_nosotros {
+      width: 70%; }
+    body main .text_nosotros {
+      font-size: large; }
+    body main .form_asociate {
+      width: 50vh; }
+    body main .legend {
+      font-size: large; }
+    body main .label {
+      font-size: large; }
+    body .btn-whatsapp {
+      color: #FFF;
+      position: fixed;
+      right: 5px;
+      bottom: 5px;
+      border-radius: 560%;
+      line-height: 80px;
+      text-align: center;
+      z-index: 999; }
+    body .btn-arriba {
+      color: #FFF;
+      position: fixed;
+      left: 5px;
+      bottom: 5px;
+      border-radius: 560%;
+      line-height: 80px;
+      text-align: center;
+      z-index: 999; }
+    body footer {
+      justify-content: space-around;
+      display: block; }
+      body footer hr {
+        width: 50%; }
+      body footer .FooterCabezal {
+        display: block;
+        justify-content: space-around;
+        height: 134px; }
+      body footer .Dona__Qr_MP {
+        position: absolute;
+        left: 110px;
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 0px; }
+      body footer img {
+        width: 25px; }
+      body footer .marca_Nosotros {
+        position: absolute;
+        left: 20px;
+        top: 2600px;
+        width: 70%;
+        background-color: grey;
+        align-items: center;
+        margin: 0px;
+        margin-left: 30px; }
+      body footer .marca_adopta {
+        position: absolute;
+        left: 20px;
+        top: 1550px;
+        width: 70%;
+        background-color: grey;
+        align-items: center;
+        margin: 0px;
+        margin-left: 30px; }
+      body footer .marca_asociate {
+        position: absolute;
+        left: 20px;
+        top: 1650px;
+        width: 70%;
+        background-color: grey;
+        align-items: center;
+        margin: 0px;
+        margin-left: 30px; }
+      body footer .marca_ayudanos {
+        position: absolute;
+        left: 20px;
+        top: 1200px;
+        width: 70%;
+        background-color: grey;
+        align-items: center;
+        margin: 0px;
+        margin-left: 30px; }
+      body footer .marcaFoorter {
+        position: absolute;
+        left: 20px;
+        top: 1600px;
+        width: 70%;
+        background-color: grey;
+        align-items: center;
+        margin: 0px;
+        margin-left: 30px; }
+        body footer .marcaFoorter p {
+          color: #FFF; } }
+
+@media screen and (max-width: 768px) and (min-width: 416px) {
+  .video {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; }
+  .video iframe {
+    width: 400px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto; }
+  .news {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; }
+  .ingresos {
+    margin-left: 90px; }
+  .news__Ingresos img {
+    max-width: 400px;
+    max-height: 752px;
+    margin-top: 10px;
+    margin-left: 5px; }
+  .news__Novedades {
+    margin-right: 5px;
+    max-width: 400px;
+    max-height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  hr {
+    width: 200px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    margin-left: auto;
+    margin-right: auto; }
+  .perfil {
+    width: 280px;
+    height: 300px;
+    filter: opacity(80%);
+    border-radius: 35px; }
+  .perfil:hover {
+    border: 2px solid #FFF;
+    filter: opacity(1);
+    width: 380px;
+    height: 400px; }
+  footer {
+    background: linear-gradient(to right, #2C5364, #203A43);
+    justify-content: space-around;
+    display: grid; }
+  .FooterCabezal {
+    display: grid;
+    justify-content: space-around;
+    height: 134px; }
+  footer img {
+    width: 25px; }
+  footer p {
+    color: #FFF; }
+  .Dona__Qr_MP {
+    width: 50%;
+    margin-top: 9px;
+    margin-left: 84px; }
+  footer .marcaFoorter.marca_Index {
+    position: absolute;
+    top: 1671px;
+    left: 150px;
+    background-color: grey;
+    align-items: center;
+    margin: 0px; }
+  footer .marcaFoorter {
+    position: absolute;
+    top: 1571px;
+    left: 144px;
+    background-color: grey;
+    align-items: center;
+    margin: 0px; }
+  .btn-whatsapp {
+    /*  display: block;
+        width: 70px;
+        height: 70px;*/
+    color: #FFF;
+    position: fixed;
+    right: 3px;
+    bottom: 5px;
+    border-radius: 560%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  /* -- Color de texto que acompaña al logo de whatsapp--*/
+  p.Contactanos {
+    color: #FFF;
+    font-size: 25px; }
+  .btn-whatsapp p.Contactanos:hover {
+    color: #65dba0; }
+  /* ---------------- Boton de subir---------------------------*/
+  .btn-arriba {
+    color: #FFF;
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    border-radius: 560%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  /* -- Color de texto que acompaña al boton Subir--*/
+  p.arriba {
+    color: #FFF;
+    font-size: 25px; }
+  /* -- Hover del boton subir--*/
+  .btn-arriba p.arriba:hover {
+    color: #65dba0; } }
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .video {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+  .video iframe {
+    width: 700px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto; }
+  .news {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+  .ingresos {
+    margin-left: 230px; }
+  .news__Ingresos img {
+    max-width: 700px;
+    max-height: 752px;
+    margin-top: 10px;
+    margin-left: 5px; }
+  .news__Novedades {
+    margin-right: 5px;
+    max-width: 700px;
+    max-height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  hr {
+    width: 200px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    margin-left: auto;
+    margin-right: auto; }
+  .perfil {
+    width: 280px;
+    height: 300px;
+    filter: opacity(80%);
+    border-radius: 35px; }
+  .perfil:hover {
+    border: 2px solid #FFF;
+    filter: opacity(1);
+    width: 380px;
+    height: 400px; }
+  footer {
+    background: linear-gradient(to right, #2C5364, #203A43);
+    justify-content: space-around;
+    display: grid; }
+  .FooterCabezal {
+    display: grid;
+    justify-content: space-around;
+    height: 134px; }
+  .Dona__Qr_MP {
+    width: 50%;
+    margin-top: 9px;
+    margin-left: 84px; }
+  footer img {
+    width: 25px; }
+  footer p {
+    color: #FFF; }
+  footer .marcaFoorter.marca_Index {
+    position: absolute;
+    top: 1851px;
+    left: 330px;
+    background-color: grey;
+    align-items: center;
+    margin: 0px; }
+  footer .marcaFoorter {
+    position: absolute;
+    top: 1571px;
+    left: 144px;
+    background-color: grey;
+    align-items: center;
+    margin: 0px; }
+  .btn-whatsapp {
+    /*  display: block;
+        width: 70px;
+        height: 70px;*/
+    color: #FFF;
+    position: fixed;
+    right: 3px;
+    bottom: 5px;
+    border-radius: 560%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  /* -- Color de texto que acompaña al logo de whatsapp--*/
+  p.Contactanos {
+    color: #FFF;
+    font-size: 25px; }
+  .btn-whatsapp p.Contactanos:hover {
+    color: #65dba0; }
+  /* ---------------- Boton de subir---------------------------*/
+  .btn-arriba {
+    color: #FFF;
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    border-radius: 560%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  /* -- Color de texto que acompaña al boton Subir--*/
+  p.arriba {
+    color: #FFF;
+    font-size: 25px; }
+  /* -- Hover del boton subir--*/
+  .btn-arriba p.arriba:hover {
+    color: #65dba0; } }

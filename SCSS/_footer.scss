@@ -1,0 +1,48 @@
+
+body{
+
+    footer {
+        justify-content: space-around;
+        display: block;
+
+
+        .FooterCabezal {
+            display: flex;
+            justify-content: space-around;
+            height: 134px;
+
+        }
+
+        .Dona__Qr_MP {
+
+            width: 70%;
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+
+        .FooterCabezal__contacto-tel{
+            width: 25px;
+        }
+
+        .FooterCabezal__contacto-mail, .FooterCabezal__contacto-ubi {
+            @extend .FooterCabezal__contacto-tel;
+        }
+
+        .FooterCabezal__contacto-Redes_footer-fb, .FooterCabezal__contacto-Redes_footer-ig, .FooterCabezal__contacto-Redes_footer-tw{
+            @extend .FooterCabezal__contacto-tel;
+        }
+
+
+        .marcaFoorter {
+            background-color: grey;
+            align-items: center;
+            margin: 0px;
+
+            p {
+                color: #FFF
+            }
+        }
+
+
+    }
+}

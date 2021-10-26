@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+
+@mixin texto {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #FFF;    
+}
+    hr {
+
+        width: 900px;
+        background-color: #FFF;
+        border: 1px solid #FFF;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(51, 51, 141);
+    }
+
+
+
+    h1 {
+
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(19, 185, 63);
+        font-size: 40px;
+
+    }
+
+    p {
+        @include texto();
+    }
+
+
+    ul {
+        list-style: none;
+    }
+}

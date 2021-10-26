@@ -1,0 +1,26 @@
+
+body{
+
+
+
+    nav {
+
+        .menu {
+
+            text-align: center;
+        }
+
+        .menu__Principal {
+            background-color: #2f9236;
+        }
+
+        .menu__Principal:hover {
+            background-color: #FFF;
+            color: black
+        }
+
+        .menu__Oculto {
+            background-color: #2f9236;
+        }
+    }
+}

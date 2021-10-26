@@ -1,0 +1,176 @@
+
+
+@media screen and (max-width:768px) and (min-width:416px) {
+
+    .video {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .video iframe {
+        width: 400px;
+        height: 315px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .news {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ingresos {
+        margin-left: 90px;
+
+
+    }
+
+    .news__Ingresos img {
+        max-width: 400px;
+        max-height: 752px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+
+    .news__Novedades {
+        margin-right: 5px;
+        max-width: 400px;
+        max-height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    hr {
+
+        width: 200px;
+        background-color: #FFF;
+        border: 1px solid #FFF;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .perfil {
+        width: 280px;
+        height: 300px;
+        filter: opacity(80%);
+        border-radius: 35px;
+
+    }
+
+    .perfil:hover {
+        border: 2px solid #FFF;
+        filter: opacity(1);
+        width: 380px;
+        height: 400px;
+    }
+
+    footer {
+        background: linear-gradient(to right, #2C5364, #203A43, );
+        justify-content: space-around;
+        display: grid;
+
+    }
+
+    .FooterCabezal {
+        display: grid;
+        justify-content: space-around;
+        height: 134px;
+
+    }
+
+    footer img {
+
+        width: 25px;
+    }
+
+    footer p {
+
+        color: #FFF
+    }
+
+    .Dona__Qr_MP {
+        width: 50%;
+        margin-top: 9px;
+        margin-left: 84px;
+
+    }
+
+    footer .marcaFoorter.marca_Index {
+        position: absolute;
+        top: 1671px;
+        left: 150px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px;
+
+    }
+
+    footer .marcaFoorter {
+        position: absolute;
+        top: 1571px;
+        left: 144px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .btn-whatsapp {
+        /*  display: block;
+        width: 70px;
+        height: 70px;*/
+        color: #FFF;
+        position: fixed;
+        right: 3px;
+        bottom: 5px;
+        border-radius: 560%;
+        line-height: 80px;
+        text-align: center;
+        z-index: 999;
+    }
+
+
+
+    /* -- Color de texto que acompaña al logo de whatsapp--*/
+    p.Contactanos {
+
+        color: #FFF;
+        font-size: 25px;
+
+    }
+
+    .btn-whatsapp p.Contactanos:hover {
+
+        color: rgb(101, 219, 160)
+    }
+
+
+    /* ---------------- Boton de subir---------------------------*/
+    .btn-arriba {
+
+        color: #FFF;
+        position: fixed;
+        left: 5px;
+        bottom: 5px;
+        border-radius: 560%;
+        line-height: 80px;
+        text-align: center;
+        z-index: 999;
+    }
+
+    /* -- Color de texto que acompaña al boton Subir--*/
+
+    p.arriba {
+        color: #FFF;
+        font-size: 25px;
+    }
+
+    /* -- Hover del boton subir--*/
+
+    .btn-arriba p.arriba:hover {
+        color: rgb(101, 219, 160)
+    }
+
+}
