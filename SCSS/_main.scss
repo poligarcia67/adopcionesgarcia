@@ -1,9 +1,10 @@
 @mixin texto {
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    color: #FFF;    
+    color: #FFF;
 }
-body{
+
+body {
 
 
     main {
@@ -93,27 +94,22 @@ body{
             transform: scale(1.1, 1.1);
         }
 
-
-        .box_Perfiles {
-            display: flex;
-            justify-content: center;
-
-
+        .cbody {
+            background-color: #1f4a5c;
         }
 
-        .box_Perfiles img {
-            width: 200px;
-            filter: opacity(80%);
-
+        h5 {
+            color: #2f9236;
         }
 
-
-        .box_Perfiles img:hover {
-            border: 1px solid #FFF;
-            filter: opacity(1);
-            transform: scale(1.1, 1.1);
-
+        .ico_Cards {
+            width: 30px;
         }
+
+        .box_Perfiles-dos {
+            margin-top: 10px;
+        }
+
 
         .form_asociate {
             margin-left: auto;
@@ -121,24 +117,24 @@ body{
             width: 450px;
         }
 
-        .Qr_MP{
+        .Qr_MP {
             width: 200px;
             margin-left: auto;
             margin-right: auto;
-            
+
         }
 
-        legend{
+        legend {
             @include texto();
             font-size: 35px;
         }
 
 
-        label{
+        label {
             @include texto();
             font-size: 25px;
         }
 
-        
+
     }
 }
