@@ -61,19 +61,49 @@ body header .logofb {
 body header .logoig {
   width: 25px; }
 
-body nav .menu {
-  text-align: center; }
+body {
+  /* --comienzo nuevo menu*/
+  /* --Hover submenu--*/ }
+  body nav {
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  body .navbar {
+    text-align: center;
+    width: 100% !important;
+    border-radius: 5px;
+    background-color: #2f923600 !important; }
+  body .navbar-collapse {
+    justify-content: center !important; }
+  body .nav-link {
+    font-weight: bolder !important; }
+  body .nav-link:hover {
+    background-color: #2f9236 !important;
+    border-radius: 5px; }
+  body .navbar-toggler {
+    text-align: center; }
+  body .nav-link {
+    color: #FFF !important;
+    font-family: 'Amatic SC', cursive !important;
+    font-size: 25px; }
+  body .dropdown-menu {
+    border: #4d4d4d;
+    background-color: #2f923600 !important; }
+  body .dropdown-item {
+    width: 50%;
+    text-align: center;
+    background-color: #2f923633 !important;
+    color: #FFF !important;
+    font-family: 'Amatic SC', cursive !important;
+    font-size: 25px;
+    font-weight: bolder !important;
+    border-radius: 5px !important; }
+  body .dropdown-item:hover {
+    background-color: #2f9236 !important;
+    border-radius: 5px; }
+  body .navbar-toggler {
+    background-color: #2f9236 !important; }
 
-body nav .menu__Principal {
-  background-color: #2f9236; }
-
-body nav .menu__Principal:hover {
-  background-color: #FFF;
-  color: black; }
-
-body nav .menu__Oculto {
-  background-color: #2f9236; }
-
+/* --Fin nuevo menu*/
 body main {
   animation-duration: 2s;
   animation-name: titulo; }

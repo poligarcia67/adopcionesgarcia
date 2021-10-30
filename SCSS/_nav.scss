@@ -1,26 +1,68 @@
-
-body{
-
-
-
+body {
     nav {
+       
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    /* --comienzo nuevo menu*/
+    .navbar {
+        text-align: center;
+        width: 100% !important;
+        border-radius: 5px;
+        background-color: #2f923600 !important;
+    }
 
-        .menu {
+    .navbar-collapse {
+        justify-content: center !important;
+    }
 
-            text-align: center;
-        }
+    .nav-link {
+        font-weight: bolder !important;
+    }
+/* --Hover submenu--*/
+    .nav-link:hover {
+        background-color: #2f9236 !important;
+        border-radius: 5px;
+    }
 
-        .menu__Principal {
-            background-color: #2f9236;
-        }
+    .navbar-toggler {
+        text-align: center;
+    }
 
-        .menu__Principal:hover {
-            background-color: #FFF;
-            color: black
-        }
+    .nav-link {
+        color: #FFF !important;
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 25px;
+    }
 
-        .menu__Oculto {
-            background-color: #2f9236;
-        }
+    .dropdown-menu {
+
+        border: rgb(77, 77, 77);
+        background-color: #2f923600 !important;
+    }
+
+    .dropdown-item {
+        width: 50%;
+        text-align: center;
+        background-color: #2f923633 !important;
+        color: #FFF !important;
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 25px;
+        font-weight: bolder !important;
+        border-radius: 5px !important;
+
+    }
+
+    .dropdown-item:hover {
+        background-color: #2f9236 !important;
+        border-radius: 5px;
+
+    }
+
+    .navbar-toggler {
+        background-color: #2f9236 !important;
+
     }
 }
+
+/* --Fin nuevo menu*/

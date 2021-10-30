@@ -31,21 +31,42 @@
         </div>
       </div>
     </header>
-    <nav>
-      <div class="dropdown menu">
-        <a class="btn btn-secondary dropdown-toggle menu__Principal" href="#" role="button" id="dropdownMenuLink"
-          data-bs-toggle="dropdown" aria-expanded="false">
-          Menu
-        </a>
-        <ul class="dropdown-menu menu__Oculto" aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item" href="index.html">Home</a></li>
-          <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
-          <li><a class="dropdown-item" href="adopta.html">Adopta</a></li>
-          <li><a class="dropdown-item" href="asociate.html">Asociate</a></li>
-          <li><a class="dropdown-item" href="ayudanos.html">Ayudanos</a></li>
-        </ul>
+    <!-- inicio nuevo menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="adopta.html" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Adopta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="perros.html">Perros</a></li>
+                <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Asociate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ayudanos</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <!-- Fin nuevo menu-->
     <main>
       <hr>
       <div align="center">

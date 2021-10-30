@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords"  content="Adopciones Quilmes, Adopcion, Refugios, Perros, Gatos, ayudar, Voluntario, Donaciones">
-  <meta name="description" content="Queres ser voluntario en un refugio de animales? Colaborar enviando dinero? Donar productos? Acercate a cualquiera de nuestros puntos de recepción.">  
+  <meta name="keywords" content="Adopciones Quilmes, Adopcion, Refugios, Perros, Gatos, ayudar, Voluntario, Donaciones">
+  <meta name="description"
+    content="Queres ser voluntario en un refugio de animales? Colaborar enviando dinero? Donar productos? Acercate a cualquiera de nuestros puntos de recepción.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/pruebacss.css">
@@ -32,21 +33,43 @@
         </div>
       </div>
     </header>
-    <nav>
-      <div class="dropdown menu">
-        <a class="btn btn-secondary dropdown-toggle menu__Principal" href="#" role="button" id="dropdownMenuLink"
-          data-bs-toggle="dropdown" aria-expanded="false">
-          Menu
-        </a>
-        <ul class="dropdown-menu menu__Oculto" aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item" href="index.html">Home</a></li>
-          <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
-          <li><a class="dropdown-item" href="adopta.html">Adopta</a></li>
-          <li><a class="dropdown-item" href="asociate.html">Asociate</a></li>
-          <li><a class="dropdown-item" href="ayudanos.html">Ayudanos</a></li>
-        </ul>
+    <!-- inicio nuevo menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="adopta.html" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Adopta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="perros.html">Perros</a></li>
+                <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Asociate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ayudanos</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <!-- Fin nuevo menu-->
+
     <main>
       <hr>
       <h1>Ayudanos</h1>
@@ -83,66 +106,74 @@
         </a>
       </div>
     </div>
-  <!-- inicio Footer-->
-  <Footer>
-    <hr>
-    <Div Class="FooterCabezal">
-      <div class="FooterCabezal__contacto">
-        <ul>
-          <Li>
-            <a href="">
-              <p><img class="FooterCabezal__contacto-tel "src="Images/iconotelefono.png" alt="Icono Telefono"> +5491140641006</p>
-            </a>
-          </Li>
-          <Li>
-            <a href="">
-              <p><img class="FooterCabezal__contacto-mail" src="Images/iconomail.jpg" alt="Icono Mail">polgarcia67@gmail.com</p>
-            </a>
-          </Li>
-          <Li>
-            <a href="">
-              <p><img class="FooterCabezal__contacto-ubi" src="Images/iconoubicacion.png" alt="Icono Ubicacion">oyuela 1490, Avellaneda</p>
-            </a>
-          </Li>
-        </ul>
+    <!-- inicio Footer-->
+    <Footer>
+      <hr>
+      <Div Class="FooterCabezal">
+        <div class="FooterCabezal__contacto">
+          <ul>
+            <Li>
+              <a href="">
+                <p><img class="FooterCabezal__contacto-tel " src="Images/iconotelefono.png" alt="Icono Telefono">
+                  +5491140641006</p>
+              </a>
+            </Li>
+            <Li>
+              <a href="">
+                <p><img class="FooterCabezal__contacto-mail" src="Images/iconomail.jpg"
+                    alt="Icono Mail">polgarcia67@gmail.com</p>
+              </a>
+            </Li>
+            <Li>
+              <a href="">
+                <p><img class="FooterCabezal__contacto-ubi" src="Images/iconoubicacion.png" alt="Icono Ubicacion">oyuela
+                  1490, Avellaneda</p>
+              </a>
+            </Li>
+          </ul>
+        </div>
+        <div class="FooterCabezal__contacto-Redes_footer">
+          <ul>
+            <Li>
+              <a href="https://www.facebook.com/AdopcionesQuilmes/?tsid=0.9860910027220695&source=result"
+                target="_blank">
+                <p><img Class="FooterCabezal__contacto-Redes_footer-fb" src="Images/LogoFB.png"
+                    alt="Facebook">Adopciones Quilmes</p>
+              </a>
+            </Li>
+            <Li>
+              <a href="https://www.instagram.com/adopcionesquilmes/?hl=es" target="_blank">
+                <p><img class="FooterCabezal__contacto-Redes_footer-ig" src="Images/logoIg.png"
+                    alt="Instagram">@AdopcionesQuilmes</p>
+              </a>
+            </Li>
+            <Li>
+              <a href="https://twitter.com/AdopcionesQ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank">
+                <p><img class="FooterCabezal__contacto-Redes_footer-tw" src="Images/LogoTW.png"
+                    alt="twitter">@AdopcionesQuilmes</p>
+              </a>
+            </Li>
+          </ul>
+        </div>
+        <div class="Dona">
+          </a><img class="Dona__Qr_MP" src="Images/Qr_MP.png" alt=""></a>
+        </div>
+      </Div>
+      <div class="marca_ayudanos">
+        <a href="">
+          <p>Desarrollado por Pablo Garcia</p>
+        </a>
       </div>
-      <div class="FooterCabezal__contacto-Redes_footer">
-        <ul>
-          <Li>
-            <a href="https://www.facebook.com/AdopcionesQuilmes/?tsid=0.9860910027220695&source=result" target="_blank">
-              <p><img Class="FooterCabezal__contacto-Redes_footer-fb" src="Images/LogoFB.png" alt="Facebook">Adopciones Quilmes</p>
-            </a>
-          </Li>
-          <Li>
-            <a href="https://www.instagram.com/adopcionesquilmes/?hl=es" target="_blank">
-              <p><img class="FooterCabezal__contacto-Redes_footer-ig" src="Images/logoIg.png" alt="Instagram">@AdopcionesQuilmes</p>
-            </a>
-          </Li>
-          <Li>
-            <a href="https://twitter.com/AdopcionesQ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-              <p><img class="FooterCabezal__contacto-Redes_footer-tw" src="Images/LogoTW.png" alt="twitter">@AdopcionesQuilmes</p>
-            </a>
-          </Li>
-        </ul>
-      </div>
-      <div class="Dona">
-        </a><img class="Dona__Qr_MP" src="Images/Qr_MP.png" alt=""></a>
-      </div>
-    </Div>
-    <div class="marca_ayudanos">
-      <a href="">
-        <p>Desarrollado por Pablo Garcia</p>
-      </a>
-    </div>
-  </Footer>
-  <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
-  </script>
-</div>
+    </Footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
+    </script>
+  </div>
 </body>
 
 </html>
