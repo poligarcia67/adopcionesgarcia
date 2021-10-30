@@ -67,28 +67,28 @@ body {
   body nav {
     margin-left: auto !important;
     margin-right: auto !important; }
-  body .navbar {
+  body .menu {
     text-align: center;
     width: 100% !important;
     border-radius: 5px;
     background-color: #2f923600 !important; }
-  body .navbar-collapse {
+  body .menu-colaps {
     justify-content: center !important; }
-  body .nav-link {
+  body .menu-link {
     font-weight: bolder !important; }
-  body .nav-link:hover {
+  body .menu-link:hover {
     background-color: #2f9236 !important;
     border-radius: 5px; }
-  body .navbar-toggler {
+  body .menu-toggler {
     text-align: center; }
-  body .nav-link {
+  body .menu-link {
     color: #FFF !important;
     font-family: 'Amatic SC', cursive !important;
     font-size: 25px; }
-  body .dropdown-menu {
+  body .submenu {
     border: #4d4d4d;
     background-color: #2f923600 !important; }
-  body .dropdown-item {
+  body .submenu {
     width: 50%;
     text-align: center;
     background-color: #2f923633 !important;
@@ -97,10 +97,10 @@ body {
     font-size: 25px;
     font-weight: bolder !important;
     border-radius: 5px !important; }
-  body .dropdown-item:hover {
+  body .submenu:hover {
     background-color: #2f9236 !important;
     border-radius: 5px; }
-  body .navbar-toggler {
+  body .menu-toggler {
     background-color: #2f9236 !important; }
 
 /* --Fin nuevo menu*/
