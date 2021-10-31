@@ -303,6 +303,9 @@ body .btn-arriba {
       width: 80% !important;
       margin-left: auto !important;
       margin-right: auto !important; }
+    body main .menu-toggler {
+      margin-right: auto !important;
+      margin-left: auto !important; }
     body .btn-whatsapp {
       color: #FFF;
       position: fixed;
@@ -480,6 +483,9 @@ body .btn-arriba {
       width: 65% !important;
       margin-left: auto !important;
       margin-right: auto !important; }
+    body main .menu-toggler {
+      margin-right: auto !important;
+      margin-left: auto !important; }
     body .btn-whatsapp {
       color: #FFF;
       position: fixed;

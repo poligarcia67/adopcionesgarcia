@@ -76,13 +76,15 @@
                 width: 380px;
                 height: 400px;
             }
-            .Perfilperros{
+
+            .Perfilperros {
                 margin: 5px;
                 margin-left: 50px;
                 margin-right: auto;
-        
+
             }
-            .perfilgatos{
+
+            .perfilgatos {
                 margin: 5px;
                 margin-left: 50px;
                 margin-right: auto;
@@ -98,21 +100,29 @@
                 font-size: large;
             }
 
-            .form_asociate{
-                width: 50vh;                
+            .form_asociate {
+                width: 50vh;
             }
-            .legend{
-                font-size: large;
-            }
-            .label{
+
+            .legend {
                 font-size: large;
             }
 
-            .card{
+            .label {
+                font-size: large;
+            }
+
+            .card {
                 width: 80% !important;
                 margin-left: auto !important;
                 margin-right: auto !important;
-              }
+
+            }
+
+            .menu-toggler {
+                margin-right: auto !important;
+                margin-left: auto !important;
+            }
 
         }
 
@@ -191,7 +201,8 @@
                 margin: 0px;
                 margin-left: 30px;
             }
-            .marca_perros{
+
+            .marca_perros {
                 position: absolute;
                 left: 30px;
                 top: 4680px;
@@ -201,7 +212,8 @@
                 margin: 0px;
                 margin-left: 30px;
             }
-            .marca_gatos{
+
+            .marca_gatos {
                 position: absolute;
                 left: 30px;
                 top: 5000px;
@@ -211,8 +223,9 @@
                 margin: 0px;
                 margin-left: 30px;
             }
-            .marca_asociate{
-                 position: absolute;
+
+            .marca_asociate {
+                position: absolute;
                 left: 20px;
                 top: 1640px;
                 width: 70%;
@@ -222,7 +235,8 @@
                 margin-left: 30px;
 
             }
-            .marca_ayudanos{
+
+            .marca_ayudanos {
                 position: absolute;
                 left: 20px;
                 top: 1200px;
@@ -244,11 +258,11 @@
                 align-items: center;
                 margin: 0px;
                 margin-left: 30px;
-                
+
 
                 p {
                     color: #FFF;
-                    
+
                 }
 
             }
