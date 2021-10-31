@@ -80,7 +80,9 @@ body {
     background-color: #2f9236 !important;
     border-radius: 5px; }
   body .menu-toggler {
-    text-align: center; }
+    text-align: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important; }
   body .menu-link {
     color: #FFF !important;
     font-family: 'Amatic SC', cursive !important;
