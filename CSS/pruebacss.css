@@ -68,7 +68,7 @@ body {
     margin-left: auto !important;
     margin-right: auto !important; }
   body .menu {
-    text-align: center;
+    text-align: center !important;
     width: 100% !important;
     border-radius: 5px;
     background-color: #2f923600 !important; }
@@ -303,9 +303,6 @@ body .btn-arriba {
       width: 80% !important;
       margin-left: auto !important;
       margin-right: auto !important; }
-    body main .menu-toggler {
-      margin-right: auto;
-      margin-left: auto; }
     body .btn-whatsapp {
       color: #FFF;
       position: fixed;
@@ -483,9 +480,6 @@ body .btn-arriba {
       width: 65% !important;
       margin-left: auto !important;
       margin-right: auto !important; }
-    body main .menu-toggler {
-      margin-right: auto;
-      margin-left: auto; }
     body .btn-whatsapp {
       color: #FFF;
       position: fixed;
