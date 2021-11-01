@@ -415,26 +415,9 @@ body .btn-arriba {
       height: 315px;
       margin-left: auto;
       margin-right: auto; }
-    body main .news {
-      width: 300px;
-      margin-left: auto;
-      margin-right: auto; }
-    body main .Ingresos {
-      margin-left: 35px; }
-    body main .news__Novedades img {
-      max-width: 300px;
-      max-height: 752px;
-      margin-top: 10px;
-      margin-left: 5px; }
-    body main .news__Novedades {
-      margin-right: 5px;
-      max-width: 300px;
-      max-height: auto;
-      margin-top: 10px;
-      margin-bottom: 10px; }
-    body main .news__Ingresos {
-      margin-left: auto;
-      margin-right: auto; }
+    body main .consejos {
+      margin: 10px;
+      display: block; }
     body main .perros_Gatos {
       display: grid;
       align-items: center; }
