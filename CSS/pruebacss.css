@@ -159,15 +159,13 @@ body main {
     width: 30px; }
   body main .box_Perfiles-dos {
     margin-top: 10px; }
+  body main .container {
+    width: 900px !important; }
   body main .consejos {
-    margin: 10px !important;
-    display: flex !important; }
-  body main .carrusel {
-    width: 900px;
-    height: auto;
-    border-radius: 10px !important;
-    margin-left: auto;
-    margin-right: auto; }
+    margin: 10px;
+    display: flex; }
+  body main .carousel-inner {
+    border-radius: 10px !important; }
   body main .perrosadultos {
     border-radius: 5px;
     margin-right: auto;
