@@ -26,10 +26,9 @@
             }
 
             .consejos{           
-                margin: 10px;
-                display: block;
+                margin: 10px !important;
+                display: flex !important;
               }
-
             .perros_Gatos {
                 display: grid;
                 align-items: center;
