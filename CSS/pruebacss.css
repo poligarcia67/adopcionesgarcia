@@ -166,6 +166,8 @@ body main {
   body main .consejos {
     display: flex; }
   body main .carousel-inner {
+    width: 699px !important;
+    height: 320px !important;
     border-radius: 10px !important; }
   body main .perrosadultos {
     border-radius: 5px;
