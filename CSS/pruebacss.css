@@ -115,6 +115,10 @@ body main {
     opacity: 0; }
   100% {
     opacity: 1; } }
+  body main .video {
+    width: 900px;
+    margin-left: auto !important;
+    margin-right: auto !important; }
   body main .video iframe {
     width: 900px;
     height: 315px;
