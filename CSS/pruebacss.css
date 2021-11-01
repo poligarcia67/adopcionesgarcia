@@ -160,23 +160,23 @@ body main {
   body main .box_Perfiles-dos {
     margin-top: 10px; }
   body main .container {
-    width: 900px;
-    height: auto; }
-    body main .container .consejos {
-      margin: 10px !important;
-      display: flex !important; }
-    body main .container .carrusel-inner {
-      border-radius: 10px !important; }
-    body main .container .perrosadultos {
-      border-radius: 5px;
-      margin-right: auto;
-      margin-left: auto; }
-    body main .container .gatosadultos {
-      border-radius: 5px;
-      margin-right: auto;
-      margin-left: auto; }
-    body main .container .carousel-control-color {
-      color: black !important; }
+    width: 900px !important;
+    height: auto !important; }
+  body main .consejos {
+    margin: 10px !important;
+    display: flex !important; }
+  body main .carrusel {
+    border-radius: 10px !important; }
+  body main .perrosadultos {
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto; }
+  body main .gatosadultos {
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto; }
+  body main .carousel-control-color {
+    color: black !important; }
   body main .form_asociate {
     margin-left: auto;
     margin-right: auto;
