@@ -159,9 +159,6 @@ body main {
     width: 30px; }
   body main .box_Perfiles-dos {
     margin-top: 10px; }
-  body main .container {
-    width: 900px !important;
-    height: auto !important; }
   body main .consejos {
     margin: 10px !important;
     display: flex !important; }
