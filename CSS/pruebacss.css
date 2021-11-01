@@ -166,8 +166,7 @@ body main {
   body main .box_Perfiles-dos {
     margin-top: 10px; }
   body main .consejos {
-    display: flex;
-    margin: 10px; }
+    display: flex; }
   body main .carousel-inner {
     border-radius: 10px !important; }
   body main .perrosadultos {
