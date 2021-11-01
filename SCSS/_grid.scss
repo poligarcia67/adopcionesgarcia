@@ -20,6 +20,10 @@ body {
         display: flex;
         justify-content: center;
     }
+    
+    nav{
+        grid-area: nav;
+    }
 
 
     main {

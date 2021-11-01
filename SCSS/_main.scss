@@ -99,11 +99,16 @@ body {
 
         .consejos {
             display: flex;
+            margin: 10px;
+        }
+        .carousel{
+            width: 699px !important;
+            height: 320px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
         }
 
         .carousel-inner {
-            width: 699px !important;
-            height: 320px !important;
             border-radius: 10px !important;
         }
 
@@ -120,11 +125,7 @@ body {
             margin-left: auto;
         }
 
-        .carousel-control-color {
-            color: black !important;
-        }
-
-
+    
         .form_asociate {
             margin-left: auto;
             margin-right: auto;
