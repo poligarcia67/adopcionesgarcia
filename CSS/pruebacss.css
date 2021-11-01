@@ -118,8 +118,8 @@ body main {
   body main .video iframe {
     width: 900px;
     height: 315px;
-    margin-left: auto;
-    margin-right: auto; }
+    margin-left: auto !important;
+    margin-right: auto !important; }
   body main .cont_nosotros {
     font-family: 'Amatic SC', cursive;
     text-align: center;
@@ -163,7 +163,11 @@ body main {
     margin: 10px !important;
     display: flex !important; }
   body main .carrusel {
-    border-radius: 10px !important; }
+    width: 900px;
+    height: auto;
+    border-radius: 10px !important;
+    margin-left: auto;
+    margin-right: auto; }
   body main .perrosadultos {
     border-radius: 5px;
     margin-right: auto;
