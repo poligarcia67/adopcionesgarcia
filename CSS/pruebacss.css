@@ -168,11 +168,6 @@ body main {
   body main .consejos {
     display: flex;
     margin: 10px; }
-  body main .carousel {
-    width: 699px !important;
-    height: 320px !important;
-    margin-left: auto !important;
-    margin-right: auto !important; }
   body main .carousel-inner {
     border-radius: 10px !important; }
   body main .perrosadultos {
