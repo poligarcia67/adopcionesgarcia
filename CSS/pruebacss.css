@@ -120,20 +120,6 @@ body main {
     height: 315px;
     margin-left: auto;
     margin-right: auto; }
-  body main .news {
-    margin-left: auto;
-    margin-right: auto; }
-  body main .news__Ingresos img {
-    /*Recomendar images de 490px x 552*/
-    max-width: 590px;
-    max-height: 752px;
-    margin-top: 10px;
-    margin-left: 5px; }
-  body main .news__Novedades {
-    margin-right: 5px;
-    max-width: 590px;
-    max-height: 752px;
-    margin-top: 10px; }
   body main .cont_nosotros {
     font-family: 'Amatic SC', cursive;
     text-align: center;
@@ -173,6 +159,24 @@ body main {
     width: 30px; }
   body main .box_Perfiles-dos {
     margin-top: 10px; }
+  body main .container {
+    width: 900px;
+    height: auto; }
+  body main .consejos {
+    margin: 10px;
+    display: flex; }
+  body main .carousel-inner {
+    border-radius: 10px !important; }
+  body main .perrosadultos {
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto; }
+  body main .gatosadultos {
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto; }
+  body main .carousel-control-color {
+    color: black !important; }
   body main .form_asociate {
     margin-left: auto;
     margin-right: auto;

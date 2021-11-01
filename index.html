@@ -72,17 +72,44 @@
     <main>
       <hr>
       <h1>Home</h1>
-      <div class="video">
-        <iframe src="https://www.youtube.com/embed/UjRfufzNymM" title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+      <div class="row">
+        <div class="col sm-12">
+          <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Images/colabora.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/castracion.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Novedades.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon c-black" aria-hidden="true"></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="consejos">
+         <a class="perrosadultos" href="perros.html"><img class="perrosadultos img-fluid" src="./Images/perrosadultos.jpg" alt=""></a>
+          <a class="perrosadultos" href="gatos.html"><img class=" gatosadultos img-fluid" src="./Images/gatosadultos.jpg" alt=""></a>
+        </div>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/UjRfufzNymM" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
       </div>
-      <div class="news">
-        <!-- Novedades y Nuevos ingresos-->
-        <img src="Images/Novedades.jpg" class="img-fluid news__Novedades" alt="Novedades" title="Novedades">
-        <img src="Images/Perfil4.jpg" class="img-fluid news__Ingresos" alt="Ingresos" title="Ingresos">
-      </div>
-    </main>
+
     <!-- Boton WhatsApp-->
     <div class="btn-whatsapp">
       <a href="https://api.whatsapp.com/send?phone=+5491140641006&text=Hola! Quisiera contactarme con ustedes"
@@ -96,6 +123,7 @@
         <img clas="btn-arriba__Icono" src="Images/arriba.png" width="60" alt="whatsapp">
       </a>
     </div>
+    </main>
     <!-- inicio Footer-->
     <Footer>
       <hr>
