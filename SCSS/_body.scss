@@ -1,11 +1,12 @@
-body{
+body {
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 
-@mixin texto {
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    color: #FFF;    
-}
+    @mixin texto {
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+        color: #FFF;
+    }
+
     hr {
 
         width: 900px;
@@ -33,7 +34,7 @@ body{
 
     }
 
-    h2{
+    h2 {
         text-align: center;
         font-family: 'Amatic SC', cursive;
         color: #FFF;

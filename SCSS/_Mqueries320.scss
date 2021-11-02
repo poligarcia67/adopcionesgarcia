@@ -13,6 +13,10 @@
                 margin-right: auto;
             }
 
+            .h2 {
+                font-size: large;
+            }
+
             .video {
                 width: 300px;
                 margin-left: auto;
@@ -26,10 +30,20 @@
                 margin-right: auto;
             }
 
-            .consejos{           
-                margin: 10px !important;
-                display: flex !important;
-              }
+            .carousel {
+                margin-right: auto !important;
+                margin-left: auto !important;
+                width: 300px !important;
+            }
+
+            .consejos {
+                width: 50vh;
+                display: block;
+                margin: 10px;
+                margin-right: auto !important;
+                margin-left: auto !important;
+
+            }
 
             .perros_Gatos {
                 display: grid;
@@ -155,9 +169,10 @@
             }
 
             .marca_Nosotros {
-                position: absolute;
+                border-radius: 5px;
+                position: relative;
                 left: 20px;
-                top: 2580px;
+                top: 270px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;
@@ -166,42 +181,49 @@
             }
 
             .marca_adopta {
-                position: absolute;
+                border-radius: 5px;
+                position: relative;
                 left: 20px;
-                top: 1550px;
+                top: 270px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
                 margin-left: 30px;
             }
+            
 
             .marca_perros {
-                position: absolute;
-                left: 30px;
-                top: 4680px;
+                border-radius: 5px;
+                position: relative;
+                left: 20px;
+                top: 270px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
                 margin-left: 30px;
+
             }
 
             .marca_gatos {
-                position: absolute;
-                left: 30px;
-                top: 5000px;
+                border-radius: 5px;
+                position: relative;
+                left: 20px;
+                top: 270px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
                 margin-left: 30px;
+
             }
 
             .marca_asociate {
-                position: absolute;
+                border-radius: 5px;
+                position: relative;
                 left: 20px;
-                top: 1640px;
+                top: 270px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;
@@ -211,9 +233,10 @@
             }
 
             .marca_ayudanos {
-                position: absolute;
+                border-radius: 5px;
+                position: relative;
                 left: 20px;
-                top: 1200px;
+                top: 270px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;
@@ -224,9 +247,9 @@
 
             .marcaFoorter {
                 border-radius: 5px;
-                position: absolute;
+                position: relative;
                 left: 20px;
-                top: 1600px;
+                top: 270px;
                 width: 70%;
                 background-color: grey;
                 align-items: center;

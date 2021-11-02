@@ -65,18 +65,34 @@ body {
         .perfil {
             width: 380px;
             height: 400px;
-            filter: opacity(80%);
+            filter: sepia(20%); 
             border-radius: 35px;
             margin: 6px;
         }
 
         .perfil:hover {
             border: 2px solid #FFF;
-            filter: opacity(1);
+            filter: sepia(0%); 
             margin: 20px;
             width: 380px;
             height: 400px;
             transform: scale(1.1, 1.1);
+        }
+        .gatosadultos{
+            filter: sepia(20%); 
+        }
+        .perrosadultos{
+            filter: sepia(30%); 
+        }
+        .gatosadultos:hover{
+            border: 1px solid #FFF;
+            filter: sepia(0%);
+        }
+
+        .perrosadultos:hover {
+            border: 1px solid #FFF;
+            filter: sepia(0%);
+
         }
 
         .cbody {
