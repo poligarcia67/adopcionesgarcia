@@ -440,6 +440,8 @@ body .btn-arriba {
       border: 1px solid #FFF;
       margin-left: auto;
       margin-right: auto; }
+    body main .h2 {
+      font-size: large; }
     body main .video {
       width: 300px;
       margin-left: auto;
