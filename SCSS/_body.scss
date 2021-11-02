@@ -33,6 +33,13 @@ body{
 
     }
 
+    h2{
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        color: #FFF;
+        font-size: 30px;
+    }
+
     p {
         @include texto();
     }

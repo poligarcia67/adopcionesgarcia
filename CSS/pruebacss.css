@@ -16,6 +16,11 @@ body {
     font-family: 'Dancing Script', cursive;
     color: #13b93f;
     font-size: 40px; }
+  body h2 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: #FFF;
+    font-size: 30px; }
   body p {
     font-family: 'Amatic SC', cursive;
     text-align: center;
@@ -165,11 +170,15 @@ body main {
     width: 30px; }
   body main .box_Perfiles-dos {
     margin-top: 10px; }
+  body main .carousel {
+    text-align: center;
+    border-radius: 5px !important;
+    width: 900px !important; }
   body main .consejos {
-    display: flex; }
-  body main .carousel-inner {
-    border-radius: 10px !important; }
+    display: flex;
+    justify-content: space-evenly; }
   body main .perrosadultos {
+    margin: 2.5px;
     border-radius: 5px;
     margin-right: auto;
     margin-left: auto; }
@@ -415,9 +424,21 @@ body .btn-arriba {
       height: 315px;
       margin-left: auto;
       margin-right: auto; }
+    body main .carousel {
+      text-align: center;
+      border-radius: 5px !important;
+      width: 900px !important; }
     body main .consejos {
-      margin: 10px !important;
-      display: flex !important; }
+      display: block !important; }
+    body main .perrosadultos {
+      margin: 2.5px;
+      border-radius: 5px;
+      margin-right: auto;
+      margin-left: auto; }
+    body main .gatosadultos {
+      border-radius: 5px;
+      margin-right: auto;
+      margin-left: auto; }
     body main .perros_Gatos {
       display: grid;
       align-items: center; }
