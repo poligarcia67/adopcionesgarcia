@@ -228,11 +228,11 @@ body footer {
     margin-left: 0px; }
   body footer .FooterCabezal__contacto-tel, body footer .FooterCabezal__contacto-mail, body footer .FooterCabezal__contacto-ubi, body footer .FooterCabezal__contacto-Redes_footer-fb, body footer .FooterCabezal__contacto-Redes_footer-ig, body footer .FooterCabezal__contacto-Redes_footer-tw {
     width: 25px; }
-  body footer .marcaFoorter, body footer .marca_Nosotros, body footer .marca_Adopta, body footer .marca_Perros, body footer .marca_Gatos, body footer .marca_Asociate, body footer .marca_adopta {
+  body footer .marcaFoorter, body footer .marca_Nosotros, body footer .marca_Adopta, body footer .marca_perros, body footer .marca_Gatos, body footer .marca_asociate, body footer .marca_adopta {
     background-color: grey;
     align-items: center;
     margin: 0px; }
-    body footer .marcaFoorter p, body footer .marca_Nosotros p, body footer .marca_Adopta p, body footer .marca_Perros p, body footer .marca_Gatos p, body footer .marca_Asociate p, body footer .marca_adopta p {
+    body footer .marcaFoorter p, body footer .marca_Nosotros p, body footer .marca_Adopta p, body footer .marca_perros p, body footer .marca_Gatos p, body footer .marca_asociate p, body footer .marca_adopta p {
       color: #FFF; }
 
 body .btn-whatsapp {
