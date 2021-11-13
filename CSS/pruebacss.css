@@ -359,75 +359,54 @@ body .btn-arriba {
       body footer img {
         width: 25px; }
       body footer .marca_Nosotros {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_adopta {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_perros {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_gatos {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_asociate {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_ayudanos {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marcaFoorter {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
         body footer .marcaFoorter p {
           color: #FFF; } }
 
@@ -502,7 +481,7 @@ body .btn-arriba {
     body .btn-whatsapp {
       color: #FFF;
       position: fixed;
-      right: 5px;
+      right: 11px;
       bottom: 5px;
       border-radius: 560%;
       line-height: 80px;
@@ -535,75 +514,54 @@ body .btn-arriba {
       body footer img {
         width: 25px; }
       body footer .marca_Nosotros {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_adopta {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_perros {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_gatos {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_asociate {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marca_ayudanos {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
       body footer .marcaFoorter {
-        border-radius: 5px;
+        width: 100%;
         position: relative;
-        left: 20px;
         top: 270px;
-        width: 70%;
         background-color: grey;
         align-items: center;
-        margin: 0px;
-        margin-left: 30px; }
+        margin: 0px; }
         body footer .marcaFoorter p {
           color: #FFF; } }
 

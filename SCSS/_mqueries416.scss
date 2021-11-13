@@ -1,7 +1,5 @@
-
-
 @media screen and (max-width:768px) and (min-width:416px) {
- //------------------------------------------ Medias Queries ---------------------------------------
+    //------------------------------------------ Medias Queries ---------------------------------------
 
     body {
 
@@ -119,7 +117,7 @@
         .btn-whatsapp {
             color: #FFF;
             position: fixed;
-            right: 5px;
+            right: 11px;
             bottom: 5px;
             border-radius: 560%;
             line-height: 80px;
@@ -170,92 +168,74 @@
             }
 
             .marca_Nosotros {
-                border-radius: 5px;
+                width: 100%;
                 position: relative;
-                left: 20px;
                 top: 270px;
-                width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-                margin-left: 30px;
             }
 
             .marca_adopta {
-                border-radius: 5px;
+                width: 100%;
                 position: relative;
-                left: 20px;
                 top: 270px;
-                width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-                margin-left: 30px;
             }
-            
+
 
             .marca_perros {
-                border-radius: 5px;
+                width: 100%;
                 position: relative;
-                left: 20px;
                 top: 270px;
-                width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-                margin-left: 30px;
-
             }
 
             .marca_gatos {
-                border-radius: 5px;
+                width: 100%;
                 position: relative;
-                left: 20px;
                 top: 270px;
-                width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-                margin-left: 30px;
+
 
             }
 
             .marca_asociate {
-                border-radius: 5px;
+                width: 100%;
                 position: relative;
-                left: 20px;
                 top: 270px;
-                width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-                margin-left: 30px;
+
 
             }
 
             .marca_ayudanos {
-                border-radius: 5px;
+                width: 100%;
                 position: relative;
-                left: 20px;
                 top: 270px;
-                width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-                margin-left: 30px;
+
             }
 
 
             .marcaFoorter {
-                border-radius: 5px;
+                width: 100%;
                 position: relative;
-                left: 20px;
                 top: 270px;
-                width: 70%;
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-                margin-left: 30px;
+
 
 
                 p {
@@ -267,6 +247,6 @@
 
 
         }
-    }
 
+    }
 }
