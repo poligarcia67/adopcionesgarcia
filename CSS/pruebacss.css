@@ -579,18 +579,18 @@ body .btn-arriba {
     body main .h2 {
       font-size: large; }
     body main .video {
-      width: 300px;
+      width: 500px;
       margin-left: auto;
       margin-right: auto; }
     body main .video iframe {
-      width: 300px;
+      width: 500px;
       height: 315px;
       margin-left: auto;
       margin-right: auto; }
     body main .carousel {
       margin-right: auto !important;
       margin-left: auto !important;
-      width: 400px !important; }
+      width: 600px !important; }
     body main .consejos {
       width: 70%;
       display: block;
@@ -665,7 +665,7 @@ body .btn-arriba {
         height: 134px; }
       body footer .Dona__Qr_MP {
         position: absolute;
-        left: 150px;
+        left: 280px;
         width: 30%;
         margin-top: 0px;
         margin-left: auto;
@@ -675,49 +675,49 @@ body .btn-arriba {
       body footer .marca_Nosotros {
         width: 100%;
         position: relative;
-        top: 270px;
+        top: 380px;
         background-color: grey;
         align-items: center;
         margin: 0px; }
       body footer .marca_adopta {
         width: 100%;
         position: relative;
-        top: 270px;
+        top: 380px;
         background-color: grey;
         align-items: center;
         margin: 0px; }
       body footer .marca_perros {
         width: 100%;
         position: relative;
-        top: 270px;
+        top: 380px;
         background-color: grey;
         align-items: center;
         margin: 0px; }
       body footer .marca_gatos {
         width: 100%;
         position: relative;
-        top: 270px;
+        top: 380px;
         background-color: grey;
         align-items: center;
         margin: 0px; }
       body footer .marca_asociate {
         width: 100%;
         position: relative;
-        top: 270px;
+        top: 380px;
         background-color: grey;
         align-items: center;
         margin: 0px; }
       body footer .marca_ayudanos {
         width: 100%;
         position: relative;
-        top: 270px;
+        top: 380px;
         background-color: grey;
         align-items: center;
         margin: 0px; }
       body footer .marcaFoorter {
         width: 100%;
         position: relative;
-        top: 270px;
+        top: 380px;
         background-color: grey;
         align-items: center;
         margin: 0px; }
