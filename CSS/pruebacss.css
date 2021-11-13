@@ -510,7 +510,8 @@ body .btn-arriba {
         left: 110px;
         width: 30%;
         margin-top: 10px;
-        margin-left: 0px; }
+        margin-left: auto;
+        margin-right: auto; }
       body footer img {
         width: 25px; }
       body footer .marca_Nosotros {
