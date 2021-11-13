@@ -1,100 +1,129 @@
 @media screen and (max-width:992px) and (min-width:768px) {
     body {
-        .video {
-            width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
 
-        .video iframe {
-            width: 700px;
-            height: 315px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+        main {
+        
+            hr {
+                width: 50%;
+                background-color: #FFF;
+                border: 1px solid #FFF;
+                margin-left: auto;
+                margin-right: auto;
+            }
 
-        .news {
-            width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+            .h2 {
+                font-size: large;
+            }
 
-        .ingresos {
-            margin-left: 230px;
+            .video {
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .video iframe {
+                width: 300px;
+                height: 315px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .carousel {
+                margin-right: auto !important;
+                margin-left: auto !important;
+                width: 400px !important;
+            }
+
+            .consejos {
+                width: 70%;
+                display: block;
+                margin: 10px;
+                margin-right: auto !important;
+                margin-left: auto !important;
+
+            }
+
+            .perros_Gatos {
+                display: grid;
+                align-items: center;
+            }
 
 
-        }
+            .perfil {
+                width: 280px;
+                height: 300px;
+                filter: opacity(80%);
+                border-radius: 35px;
+            }
 
-        .news__Ingresos img {
-            max-width: 700px;
-            max-height: 752px;
-            margin-top: 10px;
-            margin-left: 5px;
-        }
+            .perfil:hover {
+                border: 2px solid #FFF;
+                filter: opacity(1);
+                width: 380px;
+                height: 400px;
+            }
+
+            .Perfilperros {
+                margin: 5px;
+                margin-left: 50px;
+                margin-right: auto;
+
+            }
+
+            .perfilgatos {
+                margin: 5px;
+                margin-left: 50px;
+                margin-right: auto;
+            }
 
 
-        .news__Novedades {
-            margin-right: 5px;
-            max-width: 700px;
-            max-height: auto;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
+            .cont_nosotros {
+                width: 70%;
 
-        hr {
+            }
 
-            width: 200px;
-            background-color: #FFF;
-            border: 1px solid #FFF;
-            margin-left: auto;
-            margin-right: auto;
-        }
+            .text_nosotros {
+                font-size: large;
+            }
 
-        .perfil {
-            width: 280px;
-            height: 300px;
-            filter: opacity(80%);
-            border-radius: 35px;
+            .form_asociate {
+                width: 100%;
+                text-align: center;
+            }
 
-        }
+            .legend {
+                font-size: large;
+            }
 
-        .perfil:hover {
-            border: 2px solid #FFF;
-            filter: opacity(1);
-            width: 380px;
-            height: 400px;
+            .label {
+                font-size: large;
+            }
+
+            .card {
+                width: 80% !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+
+            }
+
+            .menu-toggler {
+                margin-right: auto !important;
+                margin-left: auto !important;
+            }
+
         }
 
 
         .btn-whatsapp {
-            /*  display: block;
-        width: 70px;
-        height: 70px;*/
             color: #FFF;
             position: fixed;
-            right: 5px;
+            right: 20px;
             bottom: 5px;
             border-radius: 560%;
             line-height: 80px;
             text-align: center;
             z-index: 999;
         }
-
-
-
-        /* -- Color de texto que acompaña al logo de whatsapp--*/
-        p.Contactanos {
-
-            color: #FFF;
-            font-size: 25px;
-
-        }
-
-        .btn-whatsapp p.Contactanos:hover {
-
-            color: rgb(101, 219, 160)
-        }
-
 
         /* ---------------- Boton de subir---------------------------*/
         .btn-arriba {
@@ -109,56 +138,114 @@
             z-index: 999;
         }
 
-
         footer {
-            background: linear-gradient(to right, #2C5364, #203A43, );
+
             justify-content: space-around;
-            display: grid;
+            display: block;
 
-        }
-
-        .FooterCabezal {
-            display: grid;
-            justify-content: space-around;
-            height: 134px;
-
-        }
-
-        .Dona__Qr_MP {
-            width: 50%;
-            margin-top: 9px;
-            margin-left: 84px;
-        }
+            hr {
+                width: 50%;
+            }
 
 
-        footer img {
+            .FooterCabezal {
+                display: block;
+                justify-content: space-around;
+                height: 134px;
 
-            width: 25px;
-        }
+            }
 
-        footer p {
+            .Dona__Qr_MP {
+                position: absolute;
+                left: 150px;
+                width: 30%;
+                margin-top: 0px;
+                margin-left:auto;
+                margin-right: auto;
+            }
 
-            color: #FFF
-        }
+            img {
+                width: 25px;
+            }
+
+            .marca_Nosotros {
+                width: 100%;
+                position: relative;
+                top: 270px;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+            }
+
+            .marca_adopta {
+                width: 100%;
+                position: relative;
+                top: 270px;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+            }
 
 
-        footer .marcaFoorter.marca_Index {
-            position: absolute;
-            top: 1851px;
-            left: 330px;
-            background-color: grey;
-            align-items: center;
-            margin: 0px;
+            .marca_perros {
+                width: 100%;
+                position: relative;
+                top: 270px;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+            }
 
-        }
+            .marca_gatos {
+                width: 100%;
+                position: relative;
+                top: 270px;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
 
-        footer .marcaFoorter {
-            position: absolute;
-            top: 1571px;
-            left: 144px;
-            background-color: grey;
-            align-items: center;
-            margin: 0px;
+
+            }
+
+            .marca_asociate {
+                width: 100%;
+                position: relative;
+                top: 270px;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+
+
+            }
+
+            .marca_ayudanos {
+                width: 100%;
+                position: relative;
+                top: 270px;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+            }
+
+
+            .marcaFoorter {
+                width: 100%;
+                position: relative;
+                top: 270px;
+                background-color: grey;
+                align-items: center;
+                margin: 0px;
+
+
+
+                p {
+                    color: #FFF;
+
+                }
+
+            }
+
+
         }
 
     }

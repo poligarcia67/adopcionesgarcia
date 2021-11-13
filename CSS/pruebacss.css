@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); }
   body hr {
@@ -570,67 +569,82 @@ body .btn-arriba {
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   body {
-    /* -- Color de texto que acompaña al logo de whatsapp--*/
     /* ---------------- Boton de subir---------------------------*/ }
-    body .video {
-      width: 700px;
-      margin-left: auto;
-      margin-right: auto; }
-    body .video iframe {
-      width: 700px;
-      height: 315px;
-      margin-left: auto;
-      margin-right: auto; }
-    body .news {
-      width: 700px;
-      margin-left: auto;
-      margin-right: auto; }
-    body .ingresos {
-      margin-left: 230px; }
-    body .news__Ingresos img {
-      max-width: 700px;
-      max-height: 752px;
-      margin-top: 10px;
-      margin-left: 5px; }
-    body .news__Novedades {
-      margin-right: 5px;
-      max-width: 700px;
-      max-height: auto;
-      margin-top: 10px;
-      margin-bottom: 10px; }
-    body hr {
-      width: 200px;
+    body main hr {
+      width: 50%;
       background-color: #FFF;
       border: 1px solid #FFF;
       margin-left: auto;
       margin-right: auto; }
-    body .perfil {
+    body main .h2 {
+      font-size: large; }
+    body main .video {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto; }
+    body main .video iframe {
+      width: 300px;
+      height: 315px;
+      margin-left: auto;
+      margin-right: auto; }
+    body main .carousel {
+      margin-right: auto !important;
+      margin-left: auto !important;
+      width: 400px !important; }
+    body main .consejos {
+      width: 70%;
+      display: block;
+      margin: 10px;
+      margin-right: auto !important;
+      margin-left: auto !important; }
+    body main .perros_Gatos {
+      display: grid;
+      align-items: center; }
+    body main .perfil {
       width: 280px;
       height: 300px;
       filter: opacity(80%);
       border-radius: 35px; }
-    body .perfil:hover {
+    body main .perfil:hover {
       border: 2px solid #FFF;
       filter: opacity(1);
       width: 380px;
       height: 400px; }
+    body main .Perfilperros {
+      margin: 5px;
+      margin-left: 50px;
+      margin-right: auto; }
+    body main .perfilgatos {
+      margin: 5px;
+      margin-left: 50px;
+      margin-right: auto; }
+    body main .cont_nosotros {
+      width: 70%; }
+    body main .text_nosotros {
+      font-size: large; }
+    body main .form_asociate {
+      width: 100%;
+      text-align: center; }
+    body main .legend {
+      font-size: large; }
+    body main .label {
+      font-size: large; }
+    body main .card {
+      width: 80% !important;
+      margin-left: auto !important;
+      margin-right: auto !important; }
+    body main .menu-toggler {
+      margin-right: auto !important;
+      margin-left: auto !important; }
     body .btn-whatsapp {
-      /*  display: block;
-        width: 70px;
-        height: 70px;*/
       color: #FFF;
       position: fixed;
-      right: 5px;
+      right: 20px;
       bottom: 5px;
       border-radius: 560%;
       line-height: 80px;
       text-align: center;
       z-index: 999; }
-    body p.Contactanos {
-      color: #FFF;
-      font-size: 25px; }
-    body .btn-whatsapp p.Contactanos:hover {
-      color: #65dba0; }
     body .btn-arriba {
       color: #FFF;
       position: fixed;
@@ -641,32 +655,71 @@ body .btn-arriba {
       text-align: center;
       z-index: 999; }
     body footer {
-      background: linear-gradient(to right, #2C5364, #203A43);
       justify-content: space-around;
-      display: grid; }
-    body .FooterCabezal {
-      display: grid;
-      justify-content: space-around;
-      height: 134px; }
-    body .Dona__Qr_MP {
-      width: 50%;
-      margin-top: 9px;
-      margin-left: 84px; }
-    body footer img {
-      width: 25px; }
-    body footer p {
-      color: #FFF; }
-    body footer .marcaFoorter.marca_Index {
-      position: absolute;
-      top: 1851px;
-      left: 330px;
-      background-color: grey;
-      align-items: center;
-      margin: 0px; }
-    body footer .marcaFoorter {
-      position: absolute;
-      top: 1571px;
-      left: 144px;
-      background-color: grey;
-      align-items: center;
-      margin: 0px; } }
+      display: block; }
+      body footer hr {
+        width: 50%; }
+      body footer .FooterCabezal {
+        display: block;
+        justify-content: space-around;
+        height: 134px; }
+      body footer .Dona__Qr_MP {
+        position: absolute;
+        left: 150px;
+        width: 30%;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto; }
+      body footer img {
+        width: 25px; }
+      body footer .marca_Nosotros {
+        width: 100%;
+        position: relative;
+        top: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px; }
+      body footer .marca_adopta {
+        width: 100%;
+        position: relative;
+        top: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px; }
+      body footer .marca_perros {
+        width: 100%;
+        position: relative;
+        top: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px; }
+      body footer .marca_gatos {
+        width: 100%;
+        position: relative;
+        top: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px; }
+      body footer .marca_asociate {
+        width: 100%;
+        position: relative;
+        top: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px; }
+      body footer .marca_ayudanos {
+        width: 100%;
+        position: relative;
+        top: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px; }
+      body footer .marcaFoorter {
+        width: 100%;
+        position: relative;
+        top: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 0px; }
+        body footer .marcaFoorter p {
+          color: #FFF; } }
