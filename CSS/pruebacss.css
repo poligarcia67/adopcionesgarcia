@@ -311,7 +311,8 @@ body .btn-arriba {
     body main .text_nosotros {
       font-size: large; }
     body main .form_asociate {
-      width: 50vh; }
+      width: 100%;
+      text-align: center; }
     body main .legend {
       font-size: large; }
     body main .label {
@@ -466,7 +467,8 @@ body .btn-arriba {
     body main .text_nosotros {
       font-size: large; }
     body main .form_asociate {
-      width: 50vh; }
+      width: 100%;
+      text-align: center; }
     body main .legend {
       font-size: large; }
     body main .label {
@@ -507,7 +509,7 @@ body .btn-arriba {
         height: 134px; }
       body footer .Dona__Qr_MP {
         position: absolute;
-        left: 110px;
+        left: 150px;
         width: 30%;
         margin-top: 0px;
         margin-left: auto;
