@@ -434,9 +434,9 @@ body .btn-arriba {
     body main .carousel {
       margin-right: auto !important;
       margin-left: auto !important;
-      width: 300px !important; }
+      width: 400px !important; }
     body main .consejos {
-      width: 50vh;
+      width: 70%;
       display: block;
       margin: 10px;
       margin-right: auto !important;
