@@ -154,6 +154,12 @@ body {
 
         }
 
+        img.Qr__MP-ayudanos {
+            position: relative;
+            left: 25px;
+        }
+
+       
         legend {
             @include texto();
             font-size: 35px;

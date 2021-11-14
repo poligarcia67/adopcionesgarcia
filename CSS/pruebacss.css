@@ -203,6 +203,9 @@ body main {
     width: 200px;
     margin-left: auto;
     margin-right: auto; }
+  body main img.Qr__MP-ayudanos {
+    position: relative;
+    left: 25px; }
   body main legend {
     font-family: 'Amatic SC', cursive;
     text-align: center;
@@ -352,9 +355,9 @@ body .btn-arriba {
         height: 134px; }
       body footer .Dona__Qr_MP {
         position: absolute;
-        left: 110px;
+        left: 135px;
         width: 30%;
-        margin-top: 10px;
+        margin-top: 2px;
         margin-left: 0px; }
       body footer img {
         width: 25px; }
@@ -508,9 +511,9 @@ body .btn-arriba {
         height: 134px; }
       body footer .Dona__Qr_MP {
         position: absolute;
-        left: 150px;
+        left: 155px;
         width: 30%;
-        margin-top: 0px;
+        margin-top: 1px;
         margin-left: auto;
         margin-right: auto; }
       body footer img {
