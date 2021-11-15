@@ -1,10 +1,8 @@
-//------------------------------------------ Medias Queries ---------------------------------------
-
-@media screen and (max-width:375px) and (min-width:300px) {
-
+@media screen and (max-width:416px) and (min-width:376px){
     body {
 
         main {
+        
             hr {
                 width: 50%;
                 background-color: #FFF;
@@ -33,11 +31,11 @@
             .carousel {
                 margin-right: auto !important;
                 margin-left: auto !important;
-                width: 300px !important;
+                width: 400px !important;
             }
 
             .consejos {
-                width: 50vh;
+                width: 70%;
                 display: block;
                 margin: 10px;
                 margin-right: auto !important;
@@ -119,7 +117,7 @@
         .btn-whatsapp {
             color: #FFF;
             position: fixed;
-            right: 11px;
+            right: 20px;
             bottom: 5px;
             border-radius: 560%;
             line-height: 80px;
@@ -159,10 +157,11 @@
 
             .Dona__Qr_MP {
                 position: absolute;
-                left: 135px;
+                left: 155px;
                 width: 30%;
-                margin-top: 2px;
-                margin-left: 0px;
+                margin-top: 1px;
+                margin-left:auto;
+                margin-right: auto;
             }
 
             img {
@@ -226,7 +225,6 @@
                 background-color: grey;
                 align-items: center;
                 margin: 0px;
-
             }
 
 
@@ -249,6 +247,7 @@
 
 
         }
+
     }
 
 }
