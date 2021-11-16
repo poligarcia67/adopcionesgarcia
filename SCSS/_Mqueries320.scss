@@ -94,7 +94,7 @@
             }
 
             .legend {
-                font-size: large;
+                font-size: x-large !important;
             }
 
             .label {
@@ -106,6 +106,9 @@
                 margin-left: auto !important;
                 margin-right: auto !important;
 
+            }
+            .Text-ayudanos{
+                font-size: large; 
             }
 
             .menu-toggler {

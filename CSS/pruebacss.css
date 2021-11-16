@@ -316,13 +316,15 @@ body .btn-arriba {
       width: 100%;
       text-align: center; }
     body main .legend {
-      font-size: large; }
+      font-size: x-large !important; }
     body main .label {
       font-size: large; }
     body main .card {
       width: 80% !important;
       margin-left: auto !important;
       margin-right: auto !important; }
+    body main .Text-ayudanos {
+      font-size: large; }
     body main .menu-toggler {
       margin-right: auto !important;
       margin-left: auto !important; }
