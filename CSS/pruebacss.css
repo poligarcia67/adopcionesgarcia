@@ -477,6 +477,8 @@ body .btn-arriba {
       font-size: large; }
     body main .label {
       font-size: large; }
+    body main .legend {
+      font-size: x-large !important; }
     body main .card {
       width: 80% !important;
       margin-left: auto !important;
@@ -791,6 +793,8 @@ body .btn-arriba {
       font-size: large; }
     body main .label {
       font-size: large; }
+    body main .legend {
+      font-size: x-large !important; }
     body main .card {
       width: 80% !important;
       margin-left: auto !important;
