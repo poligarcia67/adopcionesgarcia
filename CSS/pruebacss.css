@@ -316,9 +316,11 @@ body .btn-arriba {
       width: 100%;
       text-align: center; }
     body main .legend {
-      font-size: x-large !important; }
+      font-size: large !important; }
     body main .label {
       font-size: large; }
+    body main .Text-ayudanos {
+      font-size: x-large !important; }
     body main .card {
       width: 80% !important;
       margin-left: auto !important;
@@ -477,7 +479,7 @@ body .btn-arriba {
       font-size: large; }
     body main .label {
       font-size: large; }
-    body main .legend {
+    body main .Text-ayudanos {
       font-size: x-large !important; }
     body main .card {
       width: 80% !important;
@@ -793,7 +795,7 @@ body .btn-arriba {
       font-size: large; }
     body main .label {
       font-size: large; }
-    body main .legend {
+    body main .Text-ayudanos {
       font-size: x-large !important; }
     body main .card {
       width: 80% !important;
